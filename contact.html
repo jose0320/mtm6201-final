@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jowin jose">
+    <meta name="description" content="index page">
+    <meta name="keywords" content="portfolio">
+    <title>Jowin Joser</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul id="links">
+                    <li><a href="index.html" class="activelink">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <h1>Contact</h1>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h2 class="aboutme">Contact</h2>
+            <p class="contact-info">Jowin Jose</p>
+            <p class="contact-info">Email: jowinjose6@gmail.com</p>
+            <p class="contact-info">Mobile: (343)-961-9554</p>
+            <a href="www.linkedin.com/in/jowin-jose-698363303" target="_blank" class="links linkedin">LinkedIn</a>
+        </div>
+        <section id="contact">
+            <div class="form-container">
+                <div class="section">
+                    <form action="submit_form.php" method="post">
+                        <div class="formsgroup">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="formsgroup">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="formsgroup">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="3" required></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footer">&copy; 2024 Jowin Jose</p>
+    </footer>
+</body>
+
+</html>
